@@ -18,21 +18,24 @@
         app:srcCompat="@drawable/profile" />
 
     <TextView
-        android:id="@+id/text_profileUsername"
+        android:id="@+id/textView_upperEmailProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
-        android:text="yasirhaq@student.ub.ac.id"
-        app:layout_constraintEnd_toEndOf="@+id/text_profileName"
-        app:layout_constraintStart_toStartOf="@+id/text_profileName"
-        app:layout_constraintTop_toBottomOf="@+id/text_profileName" />
+        android:text="email@student.ub.ac.id"
+        app:layout_constraintEnd_toEndOf="@+id/textView_profileFullName"
+        app:layout_constraintStart_toStartOf="@+id/textView_profileFullName"
+        app:layout_constraintTop_toBottomOf="@+id/textView_profileFullName" />
 
     <TextView
-        android:id="@+id/text_profileName"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView_profileFullName"
+        android:layout_width="328dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:text="Muhammad Yasir Anshari Haq"
+        android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -42,49 +45,50 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 
     <TextView
-        android:id="@+id/text_name"
+        android:id="@+id/textView_usernameProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="Username: Bugon"
+        android:layout_marginTop="8dp"
+        android:text="Username:"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/text_profileName"
-        app:layout_constraintTop_toBottomOf="@+id/text_profileUsername" />
+        app:layout_constraintStart_toStartOf="@+id/textView_lastNameProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView_lastNameProfile" />
 
     <Button
         android:id="@+id/button_signOut"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="12dp"
         android:text="Sign Out"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintEnd_toEndOf="@+id/text_profileName"
-        app:layout_constraintStart_toStartOf="@+id/text_profileName"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintEnd_toEndOf="@+id/button_call"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/button_call"
+        app:layout_constraintTop_toBottomOf="@+id/button_call" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="4dp"
-        android:text="NIM: 226150100111009"
-        android:textColor="#000000"
-        app:layout_constraintStart_toStartOf="@+id/text_phone"
-        app:layout_constraintTop_toBottomOf="@+id/text_phone" />
-
-    <TextView
-        android:id="@+id/text_phone"
+        android:id="@+id/textView_emailProfile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Phone: +62812345678"
+        android:text="Email:"
         android:textColor="#000000"
         android:textSize="16sp"
-        app:layout_constraintStart_toStartOf="@+id/text_name"
-        app:layout_constraintTop_toBottomOf="@+id/text_name" />
+        app:layout_constraintStart_toStartOf="@+id/textView_phoneNumber"
+        app:layout_constraintTop_toBottomOf="@+id/textView_phoneNumber" />
+
+    <TextView
+        android:id="@+id/textView_phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Phone:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView_usernameProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView_usernameProfile" />
 
     <TextView
         android:id="@+id/textView7"
@@ -112,5 +116,43 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.538" />
+
+    <TextView
+        android:id="@+id/textView_firstNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="First Name:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView_profileFullName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView_profileFullName"
+        app:layout_constraintTop_toBottomOf="@+id/textView_upperEmailProfile" />
+
+    <TextView
+        android:id="@+id/textView_lastNameProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Last Name:"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/textView_firstNameProfile"
+        app:layout_constraintTop_toBottomOf="@+id/textView_firstNameProfile" />
+
+    <Button
+        android:id="@+id/button_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:text="Call"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintEnd_toEndOf="@+id/textView_profileFullName"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/textView_profileFullName"
+        app:layout_constraintTop_toBottomOf="@+id/textView_emailProfile" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
