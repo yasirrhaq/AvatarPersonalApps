@@ -1,5 +1,5 @@
 # AvatarPersonalApps
-Avatar Personal Apps created for Mobile Development Course Project
+Avatar Personal Apps created for Mobile Development Course Project (Newest code on master branch, other branch are old code for versioning purpose in learning mobile development)
 # Login Page
 ![Login](https://user-images.githubusercontent.com/41731559/224003222-8bdb72bb-80d3-46ff-8d21-9132850afd1e.PNG)
 # Register Page
