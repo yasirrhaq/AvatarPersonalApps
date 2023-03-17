@@ -1,4 +1,4 @@
-# AvatarPersonalApps
+# Avatar Personal Apps
 Avatar Personal Apps created for Mobile Development Course Project (Newest code on master branch, other branch are old code for versioning purpose in learning mobile development)
 # Login Page
 ![Login](https://user-images.githubusercontent.com/41731559/224003222-8bdb72bb-80d3-46ff-8d21-9132850afd1e.PNG)
@@ -8,3 +8,5 @@ Avatar Personal Apps created for Mobile Development Course Project (Newest code 
 ![avatar invisible](https://user-images.githubusercontent.com/41731559/224003348-e9c1a850-4f4c-46e9-974d-b9cdba531241.PNG)![avatar visible](https://user-images.githubusercontent.com/41731559/224003340-d1721899-378c-468d-9d9b-1b5c4d6e2f72.PNG)
 # Profile Page
 ![censored](https://user-images.githubusercontent.com/41731559/224004092-b1f2ba6c-e6af-4f64-b7ad-67f15e292eb4.png)
+# Demo
+https://user-images.githubusercontent.com/41731559/225866745-5c373329-3a9c-4ebf-ba76-9c1c25629570.mp4
